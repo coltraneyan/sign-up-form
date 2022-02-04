@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sign Up</title>
+</head>
+<body>
+
+  <div class="main">
+    <div class="sidebar-image"></div>
+    <div class="main-form">
+      <div class="form-header">
+        <h2>Get deep into Web3 with ChainGrid!</h2>
+        <h3>Sign up below to get started.</h3>
+      </div>
+
+      <form action="example.com/path" method="post">
+
+        
+          <div class="form-column">
+            <input type="text" id="first_name" placeholder="First Name" required minlength="3" maxlength="20">
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Password" required minlength="6" maxlength="20">
+            <div>
+              <button type="submit">Sign Up</button>
+            </div>
+          </div>
+        
+          <div class="form-column">
+            <input type="text" id="last_name" placeholder="Last Name" required minlength="1" maxlength="20">
+            <input type="tel" id="phone_number" placeholder="Phone Number" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+            <input type="password" id="confirm_password" placeholder="Confirm Password" required>
+          </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

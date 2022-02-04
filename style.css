@@ -1,0 +1,66 @@
+:root {
+  background: linear-gradient(#2d00ce, #7e91fc) fixed;
+  font-family: system-ui, sans-serif;
+  font-weight: bold;
+}
+
+.main {
+  display: flex;
+  margin: auto;
+  width: 70vw;
+  margin-top: 5vh;
+}
+
+.sidebar-image {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  width: 33%;
+  background: url(images/t3-block.png);
+  background-size: cover;
+}
+
+
+.main-form {
+  width: 67%;
+  padding: 50px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background: white;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.form-header {
+
+}
+
+form {
+  display: flex;
+  gap: 20px;
+}
+
+.form-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  border: transparent;
+  border-bottom: 2px solid black;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 2px solid blue;
+}
+
+button {
+  border: none;
+  border-radius: 40px;
+  padding: 7px;
+  background-color: #2d00ce;
+  color: white;
+}
